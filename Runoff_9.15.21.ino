@@ -89,14 +89,7 @@ void loop() {
 
 float voltage, degreesC;
  
-//    voltage = getVoltage(temperaturePin);
-//   degreesC = (voltage - 0.5) * 100.0;
-//   temp = degreesC;
-      
-//  Serial.print("Temperature: ");
-//  Serial.print(degreesC);
-//  Serial.println(" degrees C");
-//   delay(3600);
+
    float duration, distance1, volume1;
 
 
@@ -132,17 +125,9 @@ digitalWrite(trigPin, LOW);
   Serial.print(volume1, 2);
   Serial.println(" lt");
   Serial.println(" ");
-//  delay(3600000);
-  
-  
 
-    
-//    delay(3600000);
-    
 
-//  if(now.hour() == OnHour && now.minute() == OnMin  && volume1 > 10){
-
-////////////////////////////////////////////////////
+//Set a daily opening time and closing time
   if(now.hour() == OnHour && now.minute() > OnMin && now.minute() < OffMin && volume1 > OffVol ){
 
     digitalWrite(Relay,HIGH);
@@ -156,8 +141,7 @@ digitalWrite(trigPin, LOW);
       digitalWrite(Relay,LOW);
       Serial.println("VALVE CLOSE");
     }
-//    //////////////////////////////////////////////////
-
+//   
 
     //  delay(3000);///addedddddd
 
