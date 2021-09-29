@@ -1,0 +1,17 @@
+1) Create an account on 
+
+2) Create a new 'Thing' and configure your Arduino Board following these instructions: 
+  https://docs.arduino.cc/cloud/iot-cloud/tutorials/iot-cloud-getting-started
+
+3) Set 4 variables:
+    *OnHourIoT: Integer number type, Read & Write permission.
+    *OnMinuteIoT: Integer number type, Read & Write permission.
+    *Valve: Boolean type, Read & Write permission.
+    *volume: Floating point number type, Read & Write permission. 
+
+
+    
+
+
+
+  
