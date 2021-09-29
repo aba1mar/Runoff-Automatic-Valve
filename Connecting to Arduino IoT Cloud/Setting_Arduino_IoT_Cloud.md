@@ -9,8 +9,6 @@
     *Valve: Boolean type, Read & Write permission.
     *volume: Floating point number type, Read & Write permission. 
 
-
-
-
+<img src= "https://user-images.githubusercontent.com/91575651/135295010-2b179edb-41c1-45a9-aacb-0c2b623da31e.PNG" width="450" height="300">
 
   
